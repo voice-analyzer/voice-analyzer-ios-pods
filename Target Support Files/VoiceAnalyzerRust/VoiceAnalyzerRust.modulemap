@@ -1,0 +1,6 @@
+framework module VoiceAnalyzerRust {
+  umbrella header "VoiceAnalyzerRust-umbrella.h"
+
+  export *
+  module * { export * }
+}

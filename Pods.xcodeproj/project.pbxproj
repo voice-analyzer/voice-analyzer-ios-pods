@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		039E65A7E10E9759BE74C0B7A9F4D8E6 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31DE9FFC8BF98D4EA3157F618246059 /* BarChartView.swift */; };
 		049583F68755C43E89B18E0FA42E36E7 /* CandleChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5FAA917CB8604181B74E2806CB081 /* CandleChartDataEntry.swift */; };
+		0589654C402C6903487C5E587CDBCD53 /* VoiceAnalyzerRust-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A406D4CFC6E9856AE0E03F725E399D5D /* VoiceAnalyzerRust-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05A731E44A8FADB2AD8DA2FD75F268E1 /* ChartDataEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54963C18E39F70602633881D10DA1DEA /* ChartDataEntryBase.swift */; };
 		0B29EB1DC6107E295F500C936C27AF12 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFD0A6BEC4B92F90140951AB59AC27 /* Platform.swift */; };
 		0D4EA75B0AAF52F3669D184D9B7F4610 /* BarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A487EA532C7C7089D2D437C41720734 /* BarChartDataSet.swift */; };
@@ -24,6 +25,7 @@
 		19EFF5739AAF043DB3AD055F52686A95 /* IChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A1BECA75869F0E182193909DF7598 /* IChartDataSet.swift */; };
 		1C8F36F34D29524D214503A6EFC63280 /* AnimatedZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8029D3F7C7235D9DAD26F6F024AEA05 /* AnimatedZoomViewJob.swift */; };
 		1CCA390A3E72F4F94CB96A093EA299EB /* AnimatedViewPortJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EB01587B2AA70DC3FBE251AFA94DFD /* AnimatedViewPortJob.swift */; };
+		1D7A2EA4485D9FE8F141A68E4227838C /* Pods-VoiceAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BFDBF5B16D5896FEA0E91E7B74664B /* Pods-VoiceAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F82F31B43A5DF45C4D6D51ACA62AE4A /* IRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7724C18FC084866A1E40F9681848392 /* IRadarChartDataSet.swift */; };
 		20416D91E577D44B7E905929D4CC3E1A /* Platform+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C772E5330CFA8563393FB3B93F49D19 /* Platform+Accessibility.swift */; };
 		20A42BEAACFEA8E2CFFBCAE72B9DE8FB /* Charts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5258784B6E97243813A800D0D761BEC /* Charts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -66,6 +68,7 @@
 		5F8D2BAFA14DC1234B6FA8B0AA332388 /* PieRadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064CCBEB3D8F86F6C6EB1E51C427CFA /* PieRadarHighlighter.swift */; };
 		60CF224BCB74F155483490503CB0ED9C /* YAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83B64A18CDDF1C04F570FA8EDEA669 /* YAxisRendererRadarChart.swift */; };
 		616D42468FE4256CEA55DECF77507BB0 /* MoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F617C946A8AF36F4BE67A3944DCD159 /* MoveViewJob.swift */; };
+		62DBE81E139867308E0CF25ACE77C66E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		63443C663F3B1AC4BAA1162856D734E5 /* BarChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF476294176D6409FCAE02A9C446303 /* BarChartDataProvider.swift */; };
 		64A4CC7417117CF69F6DA951977D330D /* PieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4926FB589990AB6F079A9D6A138D5497 /* PieChartDataSet.swift */; };
 		66CD891E534A8C75A93F6B97863F6D93 /* Legend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AB4B9BE69EE5A91C12C6E2D3A254F /* Legend.swift */; };
@@ -76,6 +79,7 @@
 		6E0EDED253599482E25775F081CE7810 /* BarLineScatterCandleBubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72F3D17B7969DEA5559D01C445F4E98 /* BarLineScatterCandleBubbleChartDataProvider.swift */; };
 		73191C14ED0C2B148712DF534656AF29 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E88A8A712690EC5CCE4B8FD4CACEA /* Renderer.swift */; };
 		76802A5E7F88A18EDB44F364622FA556 /* BarChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8ACD76E884D121786129799A6C62A6 /* BarChartDataEntry.swift */; };
+		78C77B0AEC6689EB6E3CBC9BADD3546A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7B67C1B53AD770A9CBD2B17E705ED9A7 /* IBarLineScatterCandleBubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AA19EC1629C80BCFFD4315DD5BDB7 /* IBarLineScatterCandleBubbleChartDataSet.swift */; };
 		7BA9BB941814610A91D8E15958CCB4AD /* ScatterChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52BC3A519D9360BCA9A79F7B7C7554 /* ScatterChartDataProvider.swift */; };
 		7C5F7B31761ED6FCD81BECF7AC5528FA /* IPieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F14905E040D69883458A7BA60D77B3 /* IPieChartDataSet.swift */; };
@@ -107,17 +111,17 @@
 		A2839D96C50AB25509C5C23FDC6A5129 /* ChartLimitLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82208E692B4A402C7DF9DF8F98907938 /* ChartLimitLine.swift */; };
 		A5D576401F1BD0E05D63C4DA015CD785 /* Platform+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E287149E74C235521D84600D0C9B280 /* Platform+Gestures.swift */; };
 		A8698FC4678911DE7AF5A796925A9A59 /* ZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FD294FABA663DD42E0A312B4ACAF1B /* ZoomViewJob.swift */; };
+		A9EE794DC13F794068F785E7C7D68728 /* VoiceAnalyzerRust-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2DF576F7AE12E8DDBC964F1E93F90 /* VoiceAnalyzerRust-dummy.m */; };
 		ABA6293C23C46CD80B6FD2CC2D3F2773 /* PieChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DB505F06D59AEF8D380731C3F6A1D /* PieChartDataEntry.swift */; };
 		AD137437D13AA79B98CC4FC5C6238BDF /* AxisBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEE06A40FD441B75D6442A4808E8FD /* AxisBase.swift */; };
-		AD1516227D77E99723C8AF6C657DE295 /* Pods-VoiceAnalyzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 609BD3378161D209F932F540454B88D3 /* Pods-VoiceAnalyzer-dummy.m */; };
 		AD5F16F5148404DD94AD981373495E67 /* DataApproximator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9571799E2B70E3638C50E190BCF7FC1A /* DataApproximator.swift */; };
 		AD76FC657E7FE0E0AD2E6770C9A60692 /* BarLineScatterCandleBubbleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA0F6E3688964B6BE8E9AF58E0BA4EC /* BarLineScatterCandleBubbleRenderer.swift */; };
 		ADF0CE49064AA811D977143B4ACA76C0 /* ViewPortHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18119E2E59FD581E3BE807720C0B6285 /* ViewPortHandler.swift */; };
 		AEF415DAC907E8FF4CC578B25912C8B2 /* ICandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F71AF6D8A36E6262C1E9B000FF8367C /* ICandleChartDataSet.swift */; };
 		B1921A9919125FCB9F8C97FCFDB2F550 /* XAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963DE893F037587387004805D1A922C3 /* XAxisRendererRadarChart.swift */; };
-		B578B5FFE576B9D2B3B7F5CA9F9DB506 /* Pods-VoiceAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BFDBF5B16D5896FEA0E91E7B74664B /* Pods-VoiceAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B72D863F5371C41C9AB9025CBBEC231B /* ChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B133230158B28D8930FEC1E65AD5F /* ChartDataEntry.swift */; };
 		B78A109B1ADB327CD9FDA1A1E3DF5D2A /* XAxisRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137A3154E31F919E544231EDBE4F4A4 /* XAxisRenderer.swift */; };
+		BAE0FE119877F6F6E5C0DFBEC5A128A7 /* Pods-VoiceAnalyzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 609BD3378161D209F932F540454B88D3 /* Pods-VoiceAnalyzer-dummy.m */; };
 		BB9003EAEA7F5A9DC04EFFBA1432A99F /* IBubbleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF0442BC2DEEBAD45CD4240D2002ED8 /* IBubbleChartDataSet.swift */; };
 		BBD27D9E3EA7A7FCA0E135761456FAA7 /* BarLineScatterCandleBubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E456311CD02FC8F7B9F13164C6053805 /* BarLineScatterCandleBubbleChartData.swift */; };
 		BCAB4F0B860689E3E9FC6C409470D0C7 /* BarChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E640D5726A76F14086D66DAE9EDB8AF1 /* BarChartRenderer.swift */; };
@@ -126,6 +130,7 @@
 		C06C43408793A398CAF92EB7FAC1E074 /* PieRadarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310F7771A75BD6E2CBACF851524328A8 /* PieRadarChartViewBase.swift */; };
 		C17B0CE06CE15B1F975DD8AAF0A9597C /* ScatterChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8EBBE1A58B09493C2E2986D3C119D /* ScatterChartDataSet.swift */; };
 		C66160CFD05221569A02323C1620F76E /* BubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA199F97C72A9D0A0EFFC2FD30DBB6 /* BubbleChartDataProvider.swift */; };
+		C9F75B6159BA0B19F8595BBDB3CCE393 /* Lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727406ABA3DF69C9420941ED220724 /* Lib.swift */; };
 		CD5DA24FB20D52C16CF8E9B217BFF28F /* RadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20762B1AA4729D653B9EEA7B06362E9C /* RadarHighlighter.swift */; };
 		D1933830B7E2E812A2FC08DFB9D9B1B4 /* BubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E52906494517D7BDFFBAD661170110 /* BubbleChartData.swift */; };
 		D3B7F59C59EDB40AC19ABAD6D90ED3BE /* ChevronUpShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB55ED6B3C8E714443CDB854DA6E806 /* ChevronUpShapeRenderer.swift */; };
@@ -141,7 +146,6 @@
 		EB1F3DE3A2C8A25515B548741C3253CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EB4C557E88BF2B8BCDCAD09524962BE2 /* ILineChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF31F6C01D1D5CEBABFF06A1EA53B83 /* ILineChartDataSet.swift */; };
 		EEDD36F3788201E4D60E8F44F437464A /* MarkerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D514D886299C4E38ACE36A8CC9376AA /* MarkerImage.swift */; };
-		F101B825B0D2E49278884D7436F236F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F325729ECDB55A880A6CC6C3C897B428 /* IAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1CAEC7CC7F954BB49C60C7987BAC5 /* IAxisValueFormatter.swift */; };
 		F33A839F0D2C02E97899BDCEC7826C26 /* ScatterChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA32329972480D9F8F828C733B63F62 /* ScatterChartRenderer.swift */; };
 		F5675A28EB0914D04BB23456999927EA /* ChartUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0840460E6B20D57B0C6D83CAF5284438 /* ChartUtils.swift */; };
@@ -156,7 +160,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2413B916F5FC8E5F9E5973BD0C176FA1 /* PBXContainerItemProxy */ = {
+		3F375674FAD1BBA323867D871C16734D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411A662B93F64965CB02C85D7914E1CA;
+			remoteInfo = VoiceAnalyzerRust;
+		};
+		87B53CC315D902D104BB55D654D14A74 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -173,6 +184,7 @@
 		0840460E6B20D57B0C6D83CAF5284438 /* ChartUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartUtils.swift; path = Source/Charts/Utils/ChartUtils.swift; sourceTree = "<group>"; };
 		08B128BCC0E050B66B21ED6A6EF69E16 /* Pods-VoiceAnalyzer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceAnalyzer-acknowledgements.plist"; sourceTree = "<group>"; };
 		09EB01587B2AA70DC3FBE251AFA94DFD /* AnimatedViewPortJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedViewPortJob.swift; path = Source/Charts/Jobs/AnimatedViewPortJob.swift; sourceTree = "<group>"; };
+		0AA2DF576F7AE12E8DDBC964F1E93F90 /* VoiceAnalyzerRust-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VoiceAnalyzerRust-dummy.m"; sourceTree = "<group>"; };
 		0C772E5330CFA8563393FB3B93F49D19 /* Platform+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Accessibility.swift"; path = "Source/Charts/Utils/Platform+Accessibility.swift"; sourceTree = "<group>"; };
 		0E287149E74C235521D84600D0C9B280 /* Platform+Gestures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Gestures.swift"; path = "Source/Charts/Utils/Platform+Gestures.swift"; sourceTree = "<group>"; };
 		0F4DDEF4A7E1473A0A77044933BBC7EB /* XAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxis.swift; path = Source/Charts/Components/XAxis.swift; sourceTree = "<group>"; };
@@ -190,6 +202,7 @@
 		2DE0E041B547D06BBB282DB3D2831F7D /* DataApproximator+N.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DataApproximator+N.swift"; path = "Source/Charts/Filters/DataApproximator+N.swift"; sourceTree = "<group>"; };
 		310F7771A75BD6E2CBACF851524328A8 /* PieRadarChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarChartViewBase.swift; path = Source/Charts/Charts/PieRadarChartViewBase.swift; sourceTree = "<group>"; };
 		361F7A3E2259B2B52B112ACAC2CE35C4 /* CandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift; sourceTree = "<group>"; };
+		38E94367CCD65B2857A10ADBD221EFCC /* VoiceAnalyzerRust-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VoiceAnalyzerRust-Info.plist"; sourceTree = "<group>"; };
 		3A4DB505F06D59AEF8D380731C3F6A1D /* PieChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/PieChartDataEntry.swift; sourceTree = "<group>"; };
 		3CC1CAEC7CC7F954BB49C60C7987BAC5 /* IAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IAxisValueFormatter.swift; path = Source/Charts/Formatters/IAxisValueFormatter.swift; sourceTree = "<group>"; };
 		3DE106C040DB27DF09504805BF91421B /* Pods-VoiceAnalyzer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceAnalyzer-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -218,6 +231,7 @@
 		5A9B286BDFE78ABF03B0C4DDCFD8FBF6 /* AnimatedMoveViewJob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedMoveViewJob.swift; path = Source/Charts/Jobs/AnimatedMoveViewJob.swift; sourceTree = "<group>"; };
 		5BDD3B37C60FEA9DF5A07DF5B69C56BA /* RadarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartView.swift; path = Source/Charts/Charts/RadarChartView.swift; sourceTree = "<group>"; };
 		5CB55ED6B3C8E714443CDB854DA6E806 /* ChevronUpShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChevronUpShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/ChevronUpShapeRenderer.swift; sourceTree = "<group>"; };
+		5D305A3B048940AFCBC1D617C1A00A6D /* VoiceAnalyzerRust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceAnalyzerRust.release.xcconfig; sourceTree = "<group>"; };
 		5EF31F6C01D1D5CEBABFF06A1EA53B83 /* ILineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineChartDataSet.swift; sourceTree = "<group>"; };
 		609BD3378161D209F932F540454B88D3 /* Pods-VoiceAnalyzer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceAnalyzer-dummy.m"; sourceTree = "<group>"; };
 		61D7F5CD3E891DC2B37BD432ECAC7891 /* BubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/BubbleChartDataSet.swift; sourceTree = "<group>"; };
@@ -234,6 +248,7 @@
 		73BBD31A1D83BC2511BEC386050968AA /* Pods-VoiceAnalyzer.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceAnalyzer.app store release.xcconfig"; sourceTree = "<group>"; };
 		76AA4227E480A6D7128216FDF75ABCA0 /* ScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartView.swift; path = Source/Charts/Charts/ScatterChartView.swift; sourceTree = "<group>"; };
 		7AFEE06A40FD441B75D6442A4808E8FD /* AxisBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisBase.swift; path = Source/Charts/Components/AxisBase.swift; sourceTree = "<group>"; };
+		7C35C745ACB71A7F9E2BFCCDEC549FB8 /* VoiceAnalyzerRust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VoiceAnalyzerRust.debug.xcconfig; sourceTree = "<group>"; };
 		7C9B0E0005C6D71214BFEF16FB514846 /* CombinedChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartDataProvider.swift; path = Source/Charts/Interfaces/CombinedChartDataProvider.swift; sourceTree = "<group>"; };
 		7CBDE4065163ADB0BB65CEFB019E1CB2 /* Pods-VoiceAnalyzer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoiceAnalyzer.modulemap"; sourceTree = "<group>"; };
 		80D4C18DB4EABA7352BA57DD27731968 /* LineChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineChartDataSet.swift; sourceTree = "<group>"; };
@@ -252,12 +267,14 @@
 		8FAE17F95C8E67F7DD27B73DC5094352 /* TriangleShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TriangleShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/TriangleShapeRenderer.swift; sourceTree = "<group>"; };
 		8FE39773953A05362EED2186FC542B9D /* PieChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieChartData.swift; path = Source/Charts/Data/Implementations/Standard/PieChartData.swift; sourceTree = "<group>"; };
 		8FEA8AC06FB34D00653F00EB4DA31444 /* IBarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBarChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBarChartDataSet.swift; sourceTree = "<group>"; };
+		8FEB96E5F4DD1E5FA95320810E7C60D8 /* VoiceAnalyzerRust-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceAnalyzerRust-prefix.pch"; sourceTree = "<group>"; };
 		925B133230158B28D8930FEC1E65AD5F /* ChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataEntry.swift; sourceTree = "<group>"; };
 		92921F0BCC4D7788EDD64DE394134D6A /* Pods-VoiceAnalyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceAnalyzer.debug.xcconfig"; sourceTree = "<group>"; };
 		9465B7BFAAE224331E14F0E3E4D7BA0C /* BarChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartData.swift; path = Source/Charts/Data/Implementations/Standard/BarChartData.swift; sourceTree = "<group>"; };
 		9571799E2B70E3638C50E190BCF7FC1A /* DataApproximator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataApproximator.swift; path = Source/Charts/Filters/DataApproximator.swift; sourceTree = "<group>"; };
 		963DE893F037587387004805D1A922C3 /* XAxisRendererRadarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRendererRadarChart.swift; path = Source/Charts/Renderers/XAxisRendererRadarChart.swift; sourceTree = "<group>"; };
 		982DAA1854D8023ABFEA6BC33FC82DB0 /* ComponentBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentBase.swift; path = Source/Charts/Components/ComponentBase.swift; sourceTree = "<group>"; };
+		9C1612B9983482B0D3FB5A49C9183DD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9C76396CFA6540619A62D61E2A294362 /* CrossShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrossShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/CrossShapeRenderer.swift; sourceTree = "<group>"; };
 		9C8836136B3D1D17F9D3F8B9D95D3388 /* Description.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Description.swift; path = Source/Charts/Components/Description.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -269,14 +286,17 @@
 		A229399F00599645CBD267A0FC0A07E0 /* LegendRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegendRenderer.swift; path = Source/Charts/Renderers/LegendRenderer.swift; sourceTree = "<group>"; };
 		A241627ED7CACB2517AF5D95B139FA28 /* Platform+Graphics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Platform+Graphics.swift"; path = "Source/Charts/Utils/Platform+Graphics.swift"; sourceTree = "<group>"; };
 		A2BA199F97C72A9D0A0EFFC2FD30DBB6 /* BubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartDataProvider.swift; path = Source/Charts/Interfaces/BubbleChartDataProvider.swift; sourceTree = "<group>"; };
+		A406D4CFC6E9856AE0E03F725E399D5D /* VoiceAnalyzerRust-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VoiceAnalyzerRust-umbrella.h"; sourceTree = "<group>"; };
 		A5A15E35076A3B667B8FD0509EB3AF06 /* CombinedChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartRenderer.swift; path = Source/Charts/Renderers/CombinedChartRenderer.swift; sourceTree = "<group>"; };
 		A763AF52AFF556911CCB6DE94DCAB56E /* DefaultAxisValueFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAxisValueFormatter.swift; path = Source/Charts/Formatters/DefaultAxisValueFormatter.swift; sourceTree = "<group>"; };
 		A90D03D5BD551CF9814FDA9DBA45C503 /* ILineScatterCandleRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineScatterCandleRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineScatterCandleRadarChartDataSet.swift; sourceTree = "<group>"; };
 		ACA11F4A1B918C7BEB459B8DE15FBA42 /* Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fill.swift; path = Source/Charts/Utils/Fill.swift; sourceTree = "<group>"; };
+		AD727406ABA3DF69C9420941ED220724 /* Lib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lib.swift; path = VoiceAnalyzerRust/Sources/VoiceAnalyzerRust/Lib.swift; sourceTree = "<group>"; };
 		ADDF08F21E96EE5B41BD2FF6FC8838BA /* Charts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Charts.modulemap; sourceTree = "<group>"; };
 		B0281969024E2336858175E92AAEE5BF /* CircleShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/CircleShapeRenderer.swift; sourceTree = "<group>"; };
 		B16AF8F4CB818432DF00B2043F9EEEF2 /* Pods-VoiceAnalyzer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceAnalyzer-frameworks.sh"; sourceTree = "<group>"; };
 		B2D17B401D069A99D3A5DE2230884184 /* LineScatterCandleRadarRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarRenderer.swift; path = Source/Charts/Renderers/LineScatterCandleRadarRenderer.swift; sourceTree = "<group>"; };
+		B35FCF049B66E9D5A7A7D1765C37E467 /* VoiceAnalyzerRust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VoiceAnalyzerRust.framework; path = VoiceAnalyzerRust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AA2F159DA8DDB1545D218F25CF602D /* BarLineChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineChartViewBase.swift; path = Source/Charts/Charts/BarLineChartViewBase.swift; sourceTree = "<group>"; };
 		B57CE21CBA350F5390D423FF734D11CF /* BubbleChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartRenderer.swift; path = Source/Charts/Renderers/BubbleChartRenderer.swift; sourceTree = "<group>"; };
 		B5C48EE2BD97F532614152EE3B7174C1 /* ChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataProvider.swift; path = Source/Charts/Interfaces/ChartDataProvider.swift; sourceTree = "<group>"; };
@@ -296,6 +316,7 @@
 		CB74972F135C7166CE1348B423582867 /* Highlight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Highlight.swift; path = Source/Charts/Highlight/Highlight.swift; sourceTree = "<group>"; };
 		CC21A85FF755B71FE7150933C213AD28 /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartView.swift; path = Source/Charts/Charts/HorizontalBarChartView.swift; sourceTree = "<group>"; };
 		CCD2EA381942C4006320FBDE1E3B86CF /* LineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/LineRadarChartDataSet.swift; sourceTree = "<group>"; };
+		CD8909A59565FEBB39762132C7E67479 /* VoiceAnalyzerRust.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VoiceAnalyzerRust.modulemap; sourceTree = "<group>"; };
 		CDCFD0A6BEC4B92F90140951AB59AC27 /* Platform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.swift; path = Source/Charts/Utils/Platform.swift; sourceTree = "<group>"; };
 		CE6013C31DB5F628FCFF459656034379 /* Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Range.swift; path = Source/Charts/Highlight/Range.swift; sourceTree = "<group>"; };
 		CEEED036C18816CECC0CE22C86D1282A /* YAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxisRenderer.swift; path = Source/Charts/Renderers/YAxisRenderer.swift; sourceTree = "<group>"; };
@@ -304,6 +325,7 @@
 		D5870D99A8B67AFF39FEA87AED03835E /* LineChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartData.swift; path = Source/Charts/Data/Implementations/Standard/LineChartData.swift; sourceTree = "<group>"; };
 		D6C914CE5746D0FCF154D34789221D3D /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Source/Charts/Animation/Animator.swift; sourceTree = "<group>"; };
 		D72F3D17B7969DEA5559D01C445F4E98 /* BarLineScatterCandleBubbleChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarLineScatterCandleBubbleChartDataProvider.swift; path = Source/Charts/Interfaces/BarLineScatterCandleBubbleChartDataProvider.swift; sourceTree = "<group>"; };
+		DA71E8D41DF5A33E726FA1671FD4A660 /* VoiceAnalyzerRust.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VoiceAnalyzerRust.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DAA8EBBE1A58B09493C2E2986D3C119D /* ScatterChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ScatterChartDataSet.swift; sourceTree = "<group>"; };
 		DE84760CA92A44451BAF0388CD92EB6B /* ChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataSet.swift; sourceTree = "<group>"; };
 		DEF0442BC2DEEBAD45CD4240D2002ED8 /* IBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBubbleChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBubbleChartDataSet.swift; sourceTree = "<group>"; };
@@ -315,6 +337,7 @@
 		E640D5726A76F14086D66DAE9EDB8AF1 /* BarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartRenderer.swift; path = Source/Charts/Renderers/BarChartRenderer.swift; sourceTree = "<group>"; };
 		EA427B68ADA2432EB0ADB4B261CC04A9 /* IFillFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IFillFormatter.swift; path = Source/Charts/Formatters/IFillFormatter.swift; sourceTree = "<group>"; };
 		F116AB9BF75A2A772277869CDD16CFD5 /* XShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/XShapeRenderer.swift; sourceTree = "<group>"; };
+		F27C206DD0463716821D4D54BE2ECE58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F31DE9FFC8BF98D4EA3157F618246059 /* BarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartView.swift; path = Source/Charts/Charts/BarChartView.swift; sourceTree = "<group>"; };
 		F4F25DDB985AB3FF5DFD5DE5CE8383F5 /* CandleStickChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartView.swift; path = Source/Charts/Charts/CandleStickChartView.swift; sourceTree = "<group>"; };
 		F55AB4B9BE69EE5A91C12C6E2D3A254F /* Legend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Legend.swift; path = Source/Charts/Components/Legend.swift; sourceTree = "<group>"; };
@@ -329,11 +352,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A8AEE59DAA7A53751698DDCB13441D9 /* Frameworks */ = {
+		600ABFCCB577CAD771A6DBC8D0AEE5D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F101B825B0D2E49278884D7436F236F6 /* Foundation.framework in Frameworks */,
+				78C77B0AEC6689EB6E3CBC9BADD3546A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C703F80CDE2DE05F9E75C83B5EE092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DBE81E139867308E0CF25ACE77C66E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +402,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		65EB9094A6E02DAC2732212B326070F2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F27C206DD0463716821D4D54BE2ECE58 /* LICENSE */,
+				9C1612B9983482B0D3FB5A49C9183DD4 /* README.md */,
+				DA71E8D41DF5A33E726FA1671FD4A660 /* VoiceAnalyzerRust.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		6C59B95617D3A333D009173628DA4FBC /* Charts */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,15 +420,6 @@
 			);
 			name = Charts;
 			path = Charts;
-			sourceTree = "<group>";
-		};
-		713A5DC75FB439EAF3CE3E447EFDABC6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
-				816081D937AA931DDBB6FCE3C6B6871B /* Pods_VoiceAnalyzer.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		926EFD619364D7F1750CA8B7F40F9ADC /* Pods-VoiceAnalyzer */ = {
@@ -562,13 +594,47 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		B66DEC8778CE581199A691F11A49C408 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F351384D02421FFA91E043F0F35DFF /* VoiceAnalyzerRust */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BD4CA4AFBCA37679FD809BDCF8BB3269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
+				816081D937AA931DDBB6FCE3C6B6871B /* Pods_VoiceAnalyzer.framework */,
+				B35FCF049B66E9D5A7A7D1765C37E467 /* VoiceAnalyzerRust.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62D0472A99D5ECD35A6C9EAF763EEAC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8909A59565FEBB39762132C7E67479 /* VoiceAnalyzerRust.modulemap */,
+				0AA2DF576F7AE12E8DDBC964F1E93F90 /* VoiceAnalyzerRust-dummy.m */,
+				38E94367CCD65B2857A10ADBD221EFCC /* VoiceAnalyzerRust-Info.plist */,
+				8FEB96E5F4DD1E5FA95320810E7C60D8 /* VoiceAnalyzerRust-prefix.pch */,
+				A406D4CFC6E9856AE0E03F725E399D5D /* VoiceAnalyzerRust-umbrella.h */,
+				7C35C745ACB71A7F9E2BFCCDEC549FB8 /* VoiceAnalyzerRust.debug.xcconfig */,
+				5D305A3B048940AFCBC1D617C1A00A6D /* VoiceAnalyzerRust.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/VoiceAnalyzerRust";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B66DEC8778CE581199A691F11A49C408 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E5AB24ECFD8DBB88747DFD7EDF5BF05C /* Pods */,
-				713A5DC75FB439EAF3CE3E447EFDABC6 /* Products */,
+				BD4CA4AFBCA37679FD809BDCF8BB3269 /* Products */,
 				9EBB2D80592149A23D6D1E567FE9B4D3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -579,6 +645,17 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7F351384D02421FFA91E043F0F35DFF /* VoiceAnalyzerRust */ = {
+			isa = PBXGroup;
+			children = (
+				AD727406ABA3DF69C9420941ED220724 /* Lib.swift */,
+				65EB9094A6E02DAC2732212B326070F2 /* Pod */,
+				C62D0472A99D5ECD35A6C9EAF763EEAC /* Support Files */,
+			);
+			name = VoiceAnalyzerRust;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E5AB24ECFD8DBB88747DFD7EDF5BF05C /* Pods */ = {
@@ -600,11 +677,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		642B642FFB5F9F022190488CF1888684 /* Headers */ = {
+		4050B79B324A87FF618E292C1A3874FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B578B5FFE576B9D2B3B7F5CA9F9DB506 /* Pods-VoiceAnalyzer-umbrella.h in Headers */,
+				1D7A2EA4485D9FE8F141A68E4227838C /* Pods-VoiceAnalyzer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB945A9A0ABE843D291A4653E1941D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0589654C402C6903487C5E587CDBCD53 /* VoiceAnalyzerRust-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,21 +698,41 @@
 /* Begin PBXNativeTarget section */
 		34ED5486FF721D258AC605437E39AA44 /* Pods-VoiceAnalyzer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F00B04261C018B9C415A34671D7C338 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */;
+			buildConfigurationList = 09B03679DC388F548F1A11F72E5580C3 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */;
 			buildPhases = (
-				642B642FFB5F9F022190488CF1888684 /* Headers */,
-				BDE3C4AF3830FD89CC2B58141CFF57B6 /* Sources */,
-				0A8AEE59DAA7A53751698DDCB13441D9 /* Frameworks */,
-				2536D9249FF94BF17557CF17CD2FD1BC /* Resources */,
+				4050B79B324A87FF618E292C1A3874FF /* Headers */,
+				E1CC92EC0068D12B0CBABBA08CDE284D /* Sources */,
+				600ABFCCB577CAD771A6DBC8D0AEE5D1 /* Frameworks */,
+				9D229B3E42F9FB8205B31EFFBAB83B60 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E55ACC9548E1A21A6C67B3B99774466F /* PBXTargetDependency */,
+				7918D23014F03310FFF6B1563354B146 /* PBXTargetDependency */,
+				59402B0E78F38451F6BBCD1FFE9DD9EA /* PBXTargetDependency */,
 			);
 			name = "Pods-VoiceAnalyzer";
 			productName = "Pods-VoiceAnalyzer";
 			productReference = 816081D937AA931DDBB6FCE3C6B6871B /* Pods_VoiceAnalyzer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		411A662B93F64965CB02C85D7914E1CA /* VoiceAnalyzerRust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6F32367A9C8637D2EBB1AEC13C0E8F4 /* Build configuration list for PBXNativeTarget "VoiceAnalyzerRust" */;
+			buildPhases = (
+				BCB945A9A0ABE843D291A4653E1941D7 /* Headers */,
+				B62EDBF6BD8E4712281AFDCD131C3E22 /* [CP-User] Build libvoice_analyzer_rust */,
+				C408FB9B81F89711656A6DA0CAD748C4 /* Sources */,
+				94C703F80CDE2DE05F9E75C83B5EE092 /* Frameworks */,
+				9AFE06CE9723673EABAE9EBA625CE9B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceAnalyzerRust;
+			productName = VoiceAnalyzerRust;
+			productReference = B35FCF049B66E9D5A7A7D1765C37E467 /* VoiceAnalyzerRust.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */ = {
@@ -666,18 +771,26 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 713A5DC75FB439EAF3CE3E447EFDABC6 /* Products */;
+			productRefGroup = BD4CA4AFBCA37679FD809BDCF8BB3269 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */,
 				34ED5486FF721D258AC605437E39AA44 /* Pods-VoiceAnalyzer */,
+				411A662B93F64965CB02C85D7914E1CA /* VoiceAnalyzerRust */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2536D9249FF94BF17557CF17CD2FD1BC /* Resources */ = {
+		9AFE06CE9723673EABAE9EBA625CE9B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D229B3E42F9FB8205B31EFFBAB83B60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -692,6 +805,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B62EDBF6BD8E4712281AFDCD131C3E22 /* [CP-User] Build libvoice_analyzer_rust */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Build libvoice_analyzer_rust";
+			outputPaths = (
+				target/universal/release/libvoice_analyzer_rust.a,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n          make -C ${PODS_TARGET_SRCROOT} rust-build-universal CARGO=\"${CARGO:-$HOME/.cargo/bin/cargo}\"\n      ";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C45169D315E66EB778C21FDE28CF2B5 /* Sources */ = {
@@ -842,22 +971,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDE3C4AF3830FD89CC2B58141CFF57B6 /* Sources */ = {
+		C408FB9B81F89711656A6DA0CAD748C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD1516227D77E99723C8AF6C657DE295 /* Pods-VoiceAnalyzer-dummy.m in Sources */,
+				C9F75B6159BA0B19F8595BBDB3CCE393 /* Lib.swift in Sources */,
+				A9EE794DC13F794068F785E7C7D68728 /* VoiceAnalyzerRust-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC92EC0068D12B0CBABBA08CDE284D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE0FE119877F6F6E5C0DFBEC5A128A7 /* Pods-VoiceAnalyzer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E55ACC9548E1A21A6C67B3B99774466F /* PBXTargetDependency */ = {
+		59402B0E78F38451F6BBCD1FFE9DD9EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VoiceAnalyzerRust;
+			target = 411A662B93F64965CB02C85D7914E1CA /* VoiceAnalyzerRust */;
+			targetProxy = 3F375674FAD1BBA323867D871C16734D /* PBXContainerItemProxy */;
+		};
+		7918D23014F03310FFF6B1563354B146 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Charts;
 			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
-			targetProxy = 2413B916F5FC8E5F9E5973BD0C176FA1 /* PBXContainerItemProxy */;
+			targetProxy = 87B53CC315D902D104BB55D654D14A74 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1020,12 +1164,10 @@
 			};
 			name = Release;
 		};
-		603D0570418B39522E695EF976B35283 /* App Store Release */ = {
+		9037E0B9DE597EA7A75C1ADABCB42E96 /* App Store Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73BBD31A1D83BC2511BEC386050968AA /* Pods-VoiceAnalyzer.app store release.xcconfig */;
+			baseConfigurationReference = 5D305A3B048940AFCBC1D617C1A00A6D /* VoiceAnalyzerRust.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1034,23 +1176,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust.modulemap";
+				PRODUCT_MODULE_NAME = VoiceAnalyzerRust;
+				PRODUCT_NAME = VoiceAnalyzerRust;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1158,7 +1299,7 @@
 			};
 			name = Debug;
 		};
-		DAE613806C1EBAE1D084DECD7906719E /* Debug */ = {
+		C93BEE61DD3C0A56851868E84025D8C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92921F0BCC4D7788EDD64DE394134D6A /* Pods-VoiceAnalyzer.debug.xcconfig */;
 			buildSettings = {
@@ -1195,7 +1336,113 @@
 			};
 			name = Debug;
 		};
-		DB5B65D671528156596B44FD06300BED /* Release */ = {
+		D77B60C28B3719F1D73568A3523CA70F /* App Store Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BBD31A1D83BC2511BEC386050968AA /* Pods-VoiceAnalyzer.app store release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "App Store Release";
+		};
+		E8897C6F7DD502F81CE5C56F3A89BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C35C745ACB71A7F9E2BFCCDEC549FB8 /* VoiceAnalyzerRust.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust.modulemap";
+				PRODUCT_MODULE_NAME = VoiceAnalyzerRust;
+				PRODUCT_NAME = VoiceAnalyzerRust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE3DE3F9045786DCDFCE7DB7397E91CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust.modulemap";
+				PRODUCT_MODULE_NAME = VoiceAnalyzerRust;
+				PRODUCT_NAME = VoiceAnalyzerRust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F60B592D33204981653C33DB4BCFBF61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
@@ -1270,6 +1517,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		09B03679DC388F548F1A11F72E5580C3 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77B60C28B3719F1D73568A3523CA70F /* App Store Release */,
+				C93BEE61DD3C0A56851868E84025D8C3 /* Debug */,
+				F60B592D33204981653C33DB4BCFBF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1280,22 +1537,22 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F00B04261C018B9C415A34671D7C338 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				603D0570418B39522E695EF976B35283 /* App Store Release */,
-				DAE613806C1EBAE1D084DECD7906719E /* Debug */,
-				DB5B65D671528156596B44FD06300BED /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A65C67831F80C7ACBF60628BE550D50A /* Build configuration list for PBXNativeTarget "Charts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE71C9B2E41AF2DD6B83A55980E79D3D /* App Store Release */,
 				B8C81D98A4FA0DF5B04D8662B3EDE3F0 /* Debug */,
 				3F4B33C14E36A5806EB9B2AA28342525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6F32367A9C8637D2EBB1AEC13C0E8F4 /* Build configuration list for PBXNativeTarget "VoiceAnalyzerRust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9037E0B9DE597EA7A75C1ADABCB42E96 /* App Store Release */,
+				E8897C6F7DD502F81CE5C56F3A89BECE /* Debug */,
+				EE3DE3F9045786DCDFCE7DB7397E91CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
