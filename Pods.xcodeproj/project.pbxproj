@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		039E65A7E10E9759BE74C0B7A9F4D8E6 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31DE9FFC8BF98D4EA3157F618246059 /* BarChartView.swift */; };
 		049583F68755C43E89B18E0FA42E36E7 /* CandleChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5FAA917CB8604181B74E2806CB081 /* CandleChartDataEntry.swift */; };
-		0589654C402C6903487C5E587CDBCD53 /* VoiceAnalyzerRust-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A406D4CFC6E9856AE0E03F725E399D5D /* VoiceAnalyzerRust-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05A731E44A8FADB2AD8DA2FD75F268E1 /* ChartDataEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54963C18E39F70602633881D10DA1DEA /* ChartDataEntryBase.swift */; };
 		0B29EB1DC6107E295F500C936C27AF12 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFD0A6BEC4B92F90140951AB59AC27 /* Platform.swift */; };
 		0D4EA75B0AAF52F3669D184D9B7F4610 /* BarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A487EA532C7C7089D2D437C41720734 /* BarChartDataSet.swift */; };
@@ -19,6 +18,7 @@
 		13C743CCAF3CE2ECA19C8E9FDD642FB4 /* LineScatterCandleRadarRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D17B401D069A99D3A5DE2230884184 /* LineScatterCandleRadarRenderer.swift */; };
 		14EC9E714D791801BEC24F3AC9378868 /* Charts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D67F763094F475FC117DDA0423C310 /* Charts-dummy.m */; };
 		15392DDB7509F4721E816C4F2D1FEF23 /* IScatterChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A85155430AE43695062008A4862ABE0 /* IScatterChartDataSet.swift */; };
+		164BEEC5EC4E79E73D77736E7DB97677 /* Lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727406ABA3DF69C9420941ED220724 /* Lib.swift */; };
 		17540560F6A04BF484C30D6CA329D050 /* BarLineChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AA2F159DA8DDB1545D218F25CF602D /* BarLineChartViewBase.swift */; };
 		17E6722279FF73D07644C92E028A9A3D /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB74972F135C7166CE1348B423582867 /* Highlight.swift */; };
 		193195E9F4FB68D62E8E4B86C34A5945 /* CombinedChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019A8A956A819C818DCA46DFA00E61B1 /* CombinedChartData.swift */; };
@@ -68,11 +68,11 @@
 		5F8D2BAFA14DC1234B6FA8B0AA332388 /* PieRadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064CCBEB3D8F86F6C6EB1E51C427CFA /* PieRadarHighlighter.swift */; };
 		60CF224BCB74F155483490503CB0ED9C /* YAxisRendererRadarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D83B64A18CDDF1C04F570FA8EDEA669 /* YAxisRendererRadarChart.swift */; };
 		616D42468FE4256CEA55DECF77507BB0 /* MoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F617C946A8AF36F4BE67A3944DCD159 /* MoveViewJob.swift */; };
-		62DBE81E139867308E0CF25ACE77C66E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		63443C663F3B1AC4BAA1162856D734E5 /* BarChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF476294176D6409FCAE02A9C446303 /* BarChartDataProvider.swift */; };
 		64A4CC7417117CF69F6DA951977D330D /* PieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4926FB589990AB6F079A9D6A138D5497 /* PieChartDataSet.swift */; };
 		66CD891E534A8C75A93F6B97863F6D93 /* Legend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55AB4B9BE69EE5A91C12C6E2D3A254F /* Legend.swift */; };
 		68326E8BD753101EF05D5EE9441DF58B /* DefaultValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B198EAB22E4CF1BCB058341BEBA1F /* DefaultValueFormatter.swift */; };
+		6CA660730BA92372C0A763D735589D5A /* VoiceAnalyzerRust-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A406D4CFC6E9856AE0E03F725E399D5D /* VoiceAnalyzerRust-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D6F4EF11DBC93DBFA3DE622B73323C8 /* TransformerHorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEF19D891C300E9F3E61B100982A371 /* TransformerHorizontalBarChart.swift */; };
 		6DD1F5DEC1CC327F10011CF6CFCD556D /* CandleChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361F7A3E2259B2B52B112ACAC2CE35C4 /* CandleChartDataSet.swift */; };
 		6DF48170A020D28A59290D4402259799 /* CombinedChartRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A15E35076A3B667B8FD0509EB3AF06 /* CombinedChartRenderer.swift */; };
@@ -85,8 +85,10 @@
 		7C5F7B31761ED6FCD81BECF7AC5528FA /* IPieChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F14905E040D69883458A7BA60D77B3 /* IPieChartDataSet.swift */; };
 		8248559224861037FCF2EEA25CE91D63 /* BarChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9465B7BFAAE224331E14F0E3E4D7BA0C /* BarChartData.swift */; };
 		825288617440FAD0CA58555B82E78390 /* ScatterChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7B411ABEF18348A1C24049179B0396 /* ScatterChartData.swift */; };
+		8513C391D914B561B87005DF54A3FB77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		86CCE2B490C525B66906FEFAAF5CEBF4 /* CandleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E783FA79E7C5FEE6D62879F518ABF0A /* CandleChartData.swift */; };
 		873DC4E701CE8C49A62A88D85832F41B /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6173E76B956E7C1315DEA28B19CA44C /* ChartAnimationEasing.swift */; };
+		884E66F0EEAFECB3D6D8DE31E10DE83E /* VoiceAnalyzerRust-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2DF576F7AE12E8DDBC964F1E93F90 /* VoiceAnalyzerRust-dummy.m */; };
 		884F40EEC0A6C86BBBBB628206E3236F /* AxisRendererBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B455CB3260113D06D0708E1A7EF6C70 /* AxisRendererBase.swift */; };
 		888C8262CDA9246810307579990EE9C7 /* Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA11F4A1B918C7BEB459B8DE15FBA42 /* Fill.swift */; };
 		88A33B38D4AABE12E9BE2B3392D6EB60 /* AnimatedMoveViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B286BDFE78ABF03B0C4DDCFD8FBF6 /* AnimatedMoveViewJob.swift */; };
@@ -111,7 +113,6 @@
 		A2839D96C50AB25509C5C23FDC6A5129 /* ChartLimitLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82208E692B4A402C7DF9DF8F98907938 /* ChartLimitLine.swift */; };
 		A5D576401F1BD0E05D63C4DA015CD785 /* Platform+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E287149E74C235521D84600D0C9B280 /* Platform+Gestures.swift */; };
 		A8698FC4678911DE7AF5A796925A9A59 /* ZoomViewJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FD294FABA663DD42E0A312B4ACAF1B /* ZoomViewJob.swift */; };
-		A9EE794DC13F794068F785E7C7D68728 /* VoiceAnalyzerRust-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA2DF576F7AE12E8DDBC964F1E93F90 /* VoiceAnalyzerRust-dummy.m */; };
 		ABA6293C23C46CD80B6FD2CC2D3F2773 /* PieChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DB505F06D59AEF8D380731C3F6A1D /* PieChartDataEntry.swift */; };
 		AD137437D13AA79B98CC4FC5C6238BDF /* AxisBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFEE06A40FD441B75D6442A4808E8FD /* AxisBase.swift */; };
 		AD5F16F5148404DD94AD981373495E67 /* DataApproximator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9571799E2B70E3638C50E190BCF7FC1A /* DataApproximator.swift */; };
@@ -130,7 +131,6 @@
 		C06C43408793A398CAF92EB7FAC1E074 /* PieRadarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310F7771A75BD6E2CBACF851524328A8 /* PieRadarChartViewBase.swift */; };
 		C17B0CE06CE15B1F975DD8AAF0A9597C /* ScatterChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8EBBE1A58B09493C2E2986D3C119D /* ScatterChartDataSet.swift */; };
 		C66160CFD05221569A02323C1620F76E /* BubbleChartDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA199F97C72A9D0A0EFFC2FD30DBB6 /* BubbleChartDataProvider.swift */; };
-		C9F75B6159BA0B19F8595BBDB3CCE393 /* Lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD727406ABA3DF69C9420941ED220724 /* Lib.swift */; };
 		CD5DA24FB20D52C16CF8E9B217BFF28F /* RadarHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20762B1AA4729D653B9EEA7B06362E9C /* RadarHighlighter.swift */; };
 		D1933830B7E2E812A2FC08DFB9D9B1B4 /* BubbleChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E52906494517D7BDFFBAD661170110 /* BubbleChartData.swift */; };
 		D3B7F59C59EDB40AC19ABAD6D90ED3BE /* ChevronUpShapeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB55ED6B3C8E714443CDB854DA6E806 /* ChevronUpShapeRenderer.swift */; };
@@ -360,11 +360,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94C703F80CDE2DE05F9E75C83B5EE092 /* Frameworks */ = {
+		6F7BD4E672AA1C209D572CFA7D5FF460 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62DBE81E139867308E0CF25ACE77C66E /* Foundation.framework in Frameworks */,
+				8513C391D914B561B87005DF54A3FB77 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,11 +685,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCB945A9A0ABE843D291A4653E1941D7 /* Headers */ = {
+		8D236923BB20F11943590C5B30472847 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0589654C402C6903487C5E587CDBCD53 /* VoiceAnalyzerRust-umbrella.h in Headers */,
+				6CA660730BA92372C0A763D735589D5A /* VoiceAnalyzerRust-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,13 +718,13 @@
 		};
 		411A662B93F64965CB02C85D7914E1CA /* VoiceAnalyzerRust */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6F32367A9C8637D2EBB1AEC13C0E8F4 /* Build configuration list for PBXNativeTarget "VoiceAnalyzerRust" */;
+			buildConfigurationList = 187960CD27008B22FC651206C0BC60B2 /* Build configuration list for PBXNativeTarget "VoiceAnalyzerRust" */;
 			buildPhases = (
-				BCB945A9A0ABE843D291A4653E1941D7 /* Headers */,
-				B62EDBF6BD8E4712281AFDCD131C3E22 /* [CP-User] Build libvoice_analyzer_rust */,
-				C408FB9B81F89711656A6DA0CAD748C4 /* Sources */,
-				94C703F80CDE2DE05F9E75C83B5EE092 /* Frameworks */,
-				9AFE06CE9723673EABAE9EBA625CE9B6 /* Resources */,
+				8D236923BB20F11943590C5B30472847 /* Headers */,
+				DE8CCD44167D7176B74BF3E0C38542BA /* [CP-User] Build libvoice_analyzer_rust */,
+				09E8B241FF634CB6B29232E2F2C07C96 /* Sources */,
+				6F7BD4E672AA1C209D572CFA7D5FF460 /* Frameworks */,
+				DA23CDB9F4FE819C42F34289605C0F69 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -759,8 +759,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 11.4";
@@ -783,14 +783,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9AFE06CE9723673EABAE9EBA625CE9B6 /* Resources */ = {
+		9D229B3E42F9FB8205B31EFFBAB83B60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D229B3E42F9FB8205B31EFFBAB83B60 /* Resources */ = {
+		DA23CDB9F4FE819C42F34289605C0F69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -807,7 +807,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B62EDBF6BD8E4712281AFDCD131C3E22 /* [CP-User] Build libvoice_analyzer_rust */ = {
+		DE8CCD44167D7176B74BF3E0C38542BA /* [CP-User] Build libvoice_analyzer_rust */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -818,11 +818,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\n          make -C ${PODS_TARGET_SRCROOT} rust-build-universal CARGO=\"${CARGO:-$HOME/.cargo/bin/cargo}\"\n      ";
+			shellScript = "\n          PATH=\"/bin:/usr/bin:$PATH\" make -C ${PODS_TARGET_SRCROOT} rust-build-universal CARGO=\"${CARGO:-$HOME/.cargo/bin/cargo}\"\n      ";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		09E8B241FF634CB6B29232E2F2C07C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164BEEC5EC4E79E73D77736E7DB97677 /* Lib.swift in Sources */,
+				884E66F0EEAFECB3D6D8DE31E10DE83E /* VoiceAnalyzerRust-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2C45169D315E66EB778C21FDE28CF2B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -971,15 +980,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C408FB9B81F89711656A6DA0CAD748C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9F75B6159BA0B19F8595BBDB3CCE393 /* Lib.swift in Sources */,
-				A9EE794DC13F794068F785E7C7D68728 /* VoiceAnalyzerRust-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E1CC92EC0068D12B0CBABBA08CDE284D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1033,6 +1033,40 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4133D6AD2CD3D26F2681C4481D4ED493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust.modulemap";
+				PRODUCT_MODULE_NAME = VoiceAnalyzerRust;
+				PRODUCT_NAME = VoiceAnalyzerRust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1164,7 +1198,7 @@
 			};
 			name = Release;
 		};
-		9037E0B9DE597EA7A75C1ADABCB42E96 /* App Store Release */ = {
+		5EEF517A9D61FDE9C4F3C38CCC8684A5 /* App Store Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D305A3B048940AFCBC1D617C1A00A6D /* VoiceAnalyzerRust.release.xcconfig */;
 			buildSettings = {
@@ -1374,7 +1408,7 @@
 			};
 			name = "App Store Release";
 		};
-		E8897C6F7DD502F81CE5C56F3A89BECE /* Debug */ = {
+		EA4791972F8EFA8E4698214735E5F0EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7C35C745ACB71A7F9E2BFCCDEC549FB8 /* VoiceAnalyzerRust.debug.xcconfig */;
 			buildSettings = {
@@ -1407,40 +1441,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		EE3DE3F9045786DCDFCE7DB7397E91CB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/VoiceAnalyzerRust/VoiceAnalyzerRust.modulemap";
-				PRODUCT_MODULE_NAME = VoiceAnalyzerRust;
-				PRODUCT_NAME = VoiceAnalyzerRust;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F60B592D33204981653C33DB4BCFBF61 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1527,6 +1527,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		187960CD27008B22FC651206C0BC60B2 /* Build configuration list for PBXNativeTarget "VoiceAnalyzerRust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EEF517A9D61FDE9C4F3C38CCC8684A5 /* App Store Release */,
+				EA4791972F8EFA8E4698214735E5F0EC /* Debug */,
+				4133D6AD2CD3D26F2681C4481D4ED493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1543,16 +1553,6 @@
 				FE71C9B2E41AF2DD6B83A55980E79D3D /* App Store Release */,
 				B8C81D98A4FA0DF5B04D8662B3EDE3F0 /* Debug */,
 				3F4B33C14E36A5806EB9B2AA28342525 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B6F32367A9C8637D2EBB1AEC13C0E8F4 /* Build configuration list for PBXNativeTarget "VoiceAnalyzerRust" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9037E0B9DE597EA7A75C1ADABCB42E96 /* App Store Release */,
-				E8897C6F7DD502F81CE5C56F3A89BECE /* Debug */,
-				EE3DE3F9045786DCDFCE7DB7397E91CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

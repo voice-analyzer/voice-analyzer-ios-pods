@@ -46,7 +46,7 @@
       "output_files": [
         "target/universal/release/libvoice_analyzer_rust.a"
       ],
-      "script": "\n          make -C ${PODS_TARGET_SRCROOT} rust-build-universal CARGO=\"${CARGO:-$HOME/.cargo/bin/cargo}\"\n      "
+      "script": "\n          PATH=\"/bin:/usr/bin:$PATH\" make -C ${PODS_TARGET_SRCROOT} rust-build-universal CARGO=\"${CARGO:-$HOME/.cargo/bin/cargo}\"\n      "
     }
   ],
   "swift_version": "5"
