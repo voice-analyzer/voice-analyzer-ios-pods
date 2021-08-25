@@ -1,0 +1,6 @@
+framework module libsamplerate {
+  umbrella header "libsamplerate-umbrella.h"
+
+  export *
+  module * { export * }
+}

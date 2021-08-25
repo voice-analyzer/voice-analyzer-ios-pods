@@ -22,6 +22,11 @@
   "preserve_paths": [
     "VoiceAnalyzerRust/Sources/libvoice_analyzer_rust"
   ],
+  "dependencies": {
+    "libsamplerate": [
+      "~> 0.1"
+    ]
+  },
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/VoiceAnalyzerRust/Sources/libvoice_analyzer_rust",
     "SWIFT_INCLUDE_PATHS": "$(HEADER_SEARCH_PATHS)",
