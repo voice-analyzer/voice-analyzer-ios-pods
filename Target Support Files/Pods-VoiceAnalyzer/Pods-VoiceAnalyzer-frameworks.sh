@@ -175,12 +175,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "App Store Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Charts/Charts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VoiceAnalyzerRust/VoiceAnalyzerRust.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libsamplerate/libsamplerate.framework"
 fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Charts/Charts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/VoiceAnalyzerRust/VoiceAnalyzerRust.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/libsamplerate/libsamplerate.framework"
 fi
