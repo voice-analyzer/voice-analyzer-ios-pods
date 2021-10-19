@@ -3,31 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20CF554F77E5F39DF8A889EF4AABAFF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		278A67C6844836063CA89981446833FA /* src_linear.c in Sources */ = {isa = PBXBuildFile; fileRef = B3D47ACCE5A93F19E797B7C56493E53F /* src_linear.c */; };
-		43A31F06F71548D79C3514D7B2812A8D /* libsamplerate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3832425B436D0FAAAD0F5926FF7D3 /* libsamplerate-dummy.m */; };
-		5A0150FE1988DC2D160D7A08DD24893D /* src_sinc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6078A9B5608AC684A9CE48A7452AB2 /* src_sinc.c */; };
-		6A81C657F6735FF25E88D977485136DF /* samplerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 146F3B8E8F8FC372E2F97AB1C24F2F4D /* samplerate.c */; };
-		79000319AC0CC4B138229F78FA57AF3B /* float_cast.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B69252321C551C46595183328B075A /* float_cast.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7C48FEB40C7B161464483A126707FE7E /* Pods-VoiceAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BFDBF5B16D5896FEA0E91E7B74664B /* Pods-VoiceAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C422159213B528B738C96483E133E07 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D550546273F0A7D686D11B5D5CE1021 /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		8FCFA1F901B1017428EE1019FFCA9FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9C31672D74C9E8371EC65BC72B07A5C7 /* fastest_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A5EE97B7D392E912BD81D2ABB4FFB4 /* fastest_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		A90FDE64F2785AF6162E323B490A73C9 /* high_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9643237E0CC92735BF9C3F87F878A899 /* high_qual_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		ACB9062DA746A58502BA40064778FC32 /* mid_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEC9E5FD16AEA8ACF22DC28AC9CD410 /* mid_qual_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BB0E8D29458EA0EF350FB21275A42B47 /* samplerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6DF462E9499FB6A6C856B166FC6AFC /* samplerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C78E8891B72CD95CB7F1F9EC9E8B46B6 /* libsamplerate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A0ED385572B6B6F71E5BC1C9458413 /* libsamplerate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6503189A1AE9BA9F86AA3B7691085AE /* Pods-VoiceAnalyzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 609BD3378161D209F932F540454B88D3 /* Pods-VoiceAnalyzer-dummy.m */; };
-		EE3B316879B96280123BAFB93575D368 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A7FFA173D8D8E5E0417C6D02247B88 /* common.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F58C28BF1BDE24FF75A363FF97832509 /* src_zoh.c in Sources */ = {isa = PBXBuildFile; fileRef = A605B1DB710449D3449556732FE7A5F0 /* src_zoh.c */; };
+		089C02C904062322F719CDFA4F74C591 /* samplerate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F6DF462E9499FB6A6C856B166FC6AFC /* samplerate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		179FCD0BE0AE2C73523FD896F5BC7878 /* src_linear.c in Sources */ = {isa = PBXBuildFile; fileRef = B3D47ACCE5A93F19E797B7C56493E53F /* src_linear.c */; };
+		270CB759BBE87392695DDF9D8E519307 /* src_sinc.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C6078A9B5608AC684A9CE48A7452AB2 /* src_sinc.c */; };
+		2A323C005B3BB6DACFBF941945EFD6D3 /* mid_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EEC9E5FD16AEA8ACF22DC28AC9CD410 /* mid_qual_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		32A98DEFA13742EADC10F20FCE0C54FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4660EA088D8DD1E2B7B81CBAE8F61B40 /* src_zoh.c in Sources */ = {isa = PBXBuildFile; fileRef = A605B1DB710449D3449556732FE7A5F0 /* src_zoh.c */; };
+		51B93B2A7F2A5C49A57D2642D2A87E53 /* fastest_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A5EE97B7D392E912BD81D2ABB4FFB4 /* fastest_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5F2F7F67EC79959A367695849659BFF9 /* Pods-VoiceAnalyzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98745E582282C03F1DC6C0E6978C9353 /* Pods-VoiceAnalyzer-dummy.m */; };
+		648C61D7B383CA1611D415696EC522A1 /* libsamplerate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B3832425B436D0FAAAD0F5926FF7D3 /* libsamplerate-dummy.m */; };
+		6F0C53CAE3D10BBA267C706A12E42AE0 /* samplerate.c in Sources */ = {isa = PBXBuildFile; fileRef = 146F3B8E8F8FC372E2F97AB1C24F2F4D /* samplerate.c */; };
+		7AF436231A9F0D30E0D0EBA88CFE7D99 /* libsamplerate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A0ED385572B6B6F71E5BC1C9458413 /* libsamplerate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AFA6DE7979A897650E87501B7ACA4AC /* high_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9643237E0CC92735BF9C3F87F878A899 /* high_qual_coeffs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9DAEBCB40F73B143BD0207F66BAA0F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5FBBE8C31A0FA8AA4A4BE7A4C5C745E /* Pods-VoiceAnalyzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EBF10BB0DEC9030F1E3F5F5F7B1F9C /* Pods-VoiceAnalyzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75C473839665703FBDD627D1A6DC38B /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A7FFA173D8D8E5E0417C6D02247B88 /* common.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BB6327A7DC5EEAD591B6E037A35A8F39 /* float_cast.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B69252321C551C46595183328B075A /* float_cast.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C31C6F1909CF63179D835FEA59D744E2 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D550546273F0A7D686D11B5D5CE1021 /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		801FA8CE0AE24339EEDE4D336820376B /* PBXContainerItemProxy */ = {
+		819331C82D0B032E18342F4AE674AEC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,53 +37,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08B128BCC0E050B66B21ED6A6EF69E16 /* Pods-VoiceAnalyzer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceAnalyzer-acknowledgements.plist"; sourceTree = "<group>"; };
+		05EBF10BB0DEC9030F1E3F5F5F7B1F9C /* Pods-VoiceAnalyzer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceAnalyzer-umbrella.h"; sourceTree = "<group>"; };
 		146F3B8E8F8FC372E2F97AB1C24F2F4D /* samplerate.c */ = {isa = PBXFileReference; includeInIndex = 1; name = samplerate.c; path = libsamplerate/samplerate.c; sourceTree = "<group>"; };
 		246F946498CCCA1CCACB5304468AE7AA /* libsamplerate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "libsamplerate-Info.plist"; sourceTree = "<group>"; };
 		2C6078A9B5608AC684A9CE48A7452AB2 /* src_sinc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = src_sinc.c; path = libsamplerate/src_sinc.c; sourceTree = "<group>"; };
 		2D550546273F0A7D686D11B5D5CE1021 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = libsamplerate/config.h; sourceTree = "<group>"; };
-		3DE106C040DB27DF09504805BF91421B /* Pods-VoiceAnalyzer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceAnalyzer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F40002A3E9A86F46F56E60731D8B3BB /* Pods-VoiceAnalyzer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceAnalyzer-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C728D2F0F692B3108EBD73466AFE338 /* Pods-VoiceAnalyzer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceAnalyzer-Info.plist"; sourceTree = "<group>"; };
+		406246555EB090F8CE83F611AC09945C /* Pods-VoiceAnalyzer.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceAnalyzer.app store release.xcconfig"; sourceTree = "<group>"; };
 		42B3832425B436D0FAAAD0F5926FF7D3 /* libsamplerate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libsamplerate-dummy.m"; sourceTree = "<group>"; };
 		46A7FFA173D8D8E5E0417C6D02247B88 /* common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = common.h; path = libsamplerate/common.h; sourceTree = "<group>"; };
 		5EEC9E5FD16AEA8ACF22DC28AC9CD410 /* mid_qual_coeffs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mid_qual_coeffs.h; path = libsamplerate/mid_qual_coeffs.h; sourceTree = "<group>"; };
-		609BD3378161D209F932F540454B88D3 /* Pods-VoiceAnalyzer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceAnalyzer-dummy.m"; sourceTree = "<group>"; };
 		61A0ED385572B6B6F71E5BC1C9458413 /* libsamplerate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libsamplerate-umbrella.h"; sourceTree = "<group>"; };
 		623EC44FB3846AF34F1D3695BD1858A2 /* libsamplerate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libsamplerate.release.xcconfig; sourceTree = "<group>"; };
+		6447C99A727D5020951F71582A1AABD6 /* Pods-VoiceAnalyzer.testable release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceAnalyzer.testable release.xcconfig"; sourceTree = "<group>"; };
 		688655F2923C1635DF478A18D3163FB0 /* libsamplerate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libsamplerate.debug.xcconfig; sourceTree = "<group>"; };
+		6E77A62E27EFC13473D983B83AF6AEDA /* Pods-VoiceAnalyzer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceAnalyzer-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73BBD31A1D83BC2511BEC386050968AA /* Pods-VoiceAnalyzer.app store release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceAnalyzer.app store release.xcconfig"; sourceTree = "<group>"; };
-		7CBDE4065163ADB0BB65CEFB019E1CB2 /* Pods-VoiceAnalyzer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoiceAnalyzer.modulemap"; sourceTree = "<group>"; };
 		816081D937AA931DDBB6FCE3C6B6871B /* Pods_VoiceAnalyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VoiceAnalyzer.framework; path = "Pods-VoiceAnalyzer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CDDEBE1E34C60F18F55ED20FAFAA01 /* Pods-VoiceAnalyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceAnalyzer.debug.xcconfig"; sourceTree = "<group>"; };
 		870033DCAF03856B34A18A7EE2EEE4C7 /* libsamplerate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libsamplerate.modulemap; sourceTree = "<group>"; };
-		89F74ECF090B4690ABE6C8CCC36409D0 /* Pods-VoiceAnalyzer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceAnalyzer-Info.plist"; sourceTree = "<group>"; };
 		8F6DF462E9499FB6A6C856B166FC6AFC /* samplerate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = samplerate.h; path = libsamplerate/samplerate.h; sourceTree = "<group>"; };
-		92921F0BCC4D7788EDD64DE394134D6A /* Pods-VoiceAnalyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceAnalyzer.debug.xcconfig"; sourceTree = "<group>"; };
 		9643237E0CC92735BF9C3F87F878A899 /* high_qual_coeffs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = high_qual_coeffs.h; path = libsamplerate/high_qual_coeffs.h; sourceTree = "<group>"; };
 		97A5EE97B7D392E912BD81D2ABB4FFB4 /* fastest_coeffs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fastest_coeffs.h; path = libsamplerate/fastest_coeffs.h; sourceTree = "<group>"; };
+		98745E582282C03F1DC6C0E6978C9353 /* Pods-VoiceAnalyzer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceAnalyzer-dummy.m"; sourceTree = "<group>"; };
+		9989D2580914B8C7AB1F95DC1CF0256C /* Pods-VoiceAnalyzer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceAnalyzer-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A605B1DB710449D3449556732FE7A5F0 /* src_zoh.c */ = {isa = PBXFileReference; includeInIndex = 1; name = src_zoh.c; path = libsamplerate/src_zoh.c; sourceTree = "<group>"; };
-		B16AF8F4CB818432DF00B2043F9EEEF2 /* Pods-VoiceAnalyzer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceAnalyzer-frameworks.sh"; sourceTree = "<group>"; };
 		B3D47ACCE5A93F19E797B7C56493E53F /* src_linear.c */ = {isa = PBXFileReference; includeInIndex = 1; name = src_linear.c; path = libsamplerate/src_linear.c; sourceTree = "<group>"; };
 		BDF9B198AD76697A32B0A601058AD549 /* libsamplerate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libsamplerate-prefix.pch"; sourceTree = "<group>"; };
-		C1BFDBF5B16D5896FEA0E91E7B74664B /* Pods-VoiceAnalyzer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceAnalyzer-umbrella.h"; sourceTree = "<group>"; };
 		D0B69252321C551C46595183328B075A /* float_cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = float_cast.h; path = libsamplerate/float_cast.h; sourceTree = "<group>"; };
+		D4A4F84CA13E43215906CFB814F91C83 /* Pods-VoiceAnalyzer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoiceAnalyzer.modulemap"; sourceTree = "<group>"; };
 		EEF5F89F200FBED43D5142B116076A39 /* libsamplerate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libsamplerate.framework; path = libsamplerate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BC40E0DE4554B8248AAFE4DE8BB8285 /* Frameworks */ = {
+		15C08D9F5216CD59CECB51B15E0DAC1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CF554F77E5F39DF8A889EF4AABAFF1 /* Foundation.framework in Frameworks */,
+				9DAEBCB40F73B143BD0207F66BAA0F69 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BFEEA83713C65AA4EA12E6AC5658431 /* Frameworks */ = {
+		FF6BEF64D092FA09A9346764CF8DE642 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FCFA1F901B1017428EE1019FFCA9FFB /* Foundation.framework in Frameworks */,
+				32A98DEFA13742EADC10F20FCE0C54FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +122,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		78D5E799953D893BFBBF48F47C5D5435 /* Pods-VoiceAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				D4A4F84CA13E43215906CFB814F91C83 /* Pods-VoiceAnalyzer.modulemap */,
+				9989D2580914B8C7AB1F95DC1CF0256C /* Pods-VoiceAnalyzer-acknowledgements.markdown */,
+				2F40002A3E9A86F46F56E60731D8B3BB /* Pods-VoiceAnalyzer-acknowledgements.plist */,
+				98745E582282C03F1DC6C0E6978C9353 /* Pods-VoiceAnalyzer-dummy.m */,
+				6E77A62E27EFC13473D983B83AF6AEDA /* Pods-VoiceAnalyzer-frameworks.sh */,
+				3C728D2F0F692B3108EBD73466AFE338 /* Pods-VoiceAnalyzer-Info.plist */,
+				05EBF10BB0DEC9030F1E3F5F5F7B1F9C /* Pods-VoiceAnalyzer-umbrella.h */,
+				406246555EB090F8CE83F611AC09945C /* Pods-VoiceAnalyzer.app store release.xcconfig */,
+				82CDDEBE1E34C60F18F55ED20FAFAA01 /* Pods-VoiceAnalyzer.debug.xcconfig */,
+				6447C99A727D5020951F71582A1AABD6 /* Pods-VoiceAnalyzer.testable release.xcconfig */,
+			);
+			name = "Pods-VoiceAnalyzer";
+			path = "Target Support Files/Pods-VoiceAnalyzer";
+			sourceTree = "<group>";
+		};
 		8B4692578605339859B9A5A32D1B7C2A /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,27 +149,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		926EFD619364D7F1750CA8B7F40F9ADC /* Pods-VoiceAnalyzer */ = {
+		B0C4B2DB98E66C581AF9383A7F2EC073 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7CBDE4065163ADB0BB65CEFB019E1CB2 /* Pods-VoiceAnalyzer.modulemap */,
-				3DE106C040DB27DF09504805BF91421B /* Pods-VoiceAnalyzer-acknowledgements.markdown */,
-				08B128BCC0E050B66B21ED6A6EF69E16 /* Pods-VoiceAnalyzer-acknowledgements.plist */,
-				609BD3378161D209F932F540454B88D3 /* Pods-VoiceAnalyzer-dummy.m */,
-				B16AF8F4CB818432DF00B2043F9EEEF2 /* Pods-VoiceAnalyzer-frameworks.sh */,
-				89F74ECF090B4690ABE6C8CCC36409D0 /* Pods-VoiceAnalyzer-Info.plist */,
-				C1BFDBF5B16D5896FEA0E91E7B74664B /* Pods-VoiceAnalyzer-umbrella.h */,
-				73BBD31A1D83BC2511BEC386050968AA /* Pods-VoiceAnalyzer.app store release.xcconfig */,
-				92921F0BCC4D7788EDD64DE394134D6A /* Pods-VoiceAnalyzer.debug.xcconfig */,
-			);
-			name = "Pods-VoiceAnalyzer";
-			path = "Target Support Files/Pods-VoiceAnalyzer";
-			sourceTree = "<group>";
-		};
-		9EBB2D80592149A23D6D1E567FE9B4D3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				926EFD619364D7F1750CA8B7F40F9ADC /* Pods-VoiceAnalyzer */,
+				78D5E799953D893BFBBF48F47C5D5435 /* Pods-VoiceAnalyzer */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -182,7 +184,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				54D5301CE6C3043F42A40183D21E32B8 /* Pods */,
 				8B4692578605339859B9A5A32D1B7C2A /* Products */,
-				9EBB2D80592149A23D6D1E567FE9B4D3 /* Targets Support Files */,
+				B0C4B2DB98E66C581AF9383A7F2EC073 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,26 +199,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6B66DBD3A413816EC35A59E4E39522FC /* Headers */ = {
+		2E15F13B3D93A6C6FEBE05304192E723 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3B316879B96280123BAFB93575D368 /* common.h in Headers */,
-				8C422159213B528B738C96483E133E07 /* config.h in Headers */,
-				9C31672D74C9E8371EC65BC72B07A5C7 /* fastest_coeffs.h in Headers */,
-				79000319AC0CC4B138229F78FA57AF3B /* float_cast.h in Headers */,
-				A90FDE64F2785AF6162E323B490A73C9 /* high_qual_coeffs.h in Headers */,
-				C78E8891B72CD95CB7F1F9EC9E8B46B6 /* libsamplerate-umbrella.h in Headers */,
-				ACB9062DA746A58502BA40064778FC32 /* mid_qual_coeffs.h in Headers */,
-				BB0E8D29458EA0EF350FB21275A42B47 /* samplerate.h in Headers */,
+				B5FBBE8C31A0FA8AA4A4BE7A4C5C745E /* Pods-VoiceAnalyzer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F66B88575D4BE65FE01F69E3904B2DC2 /* Headers */ = {
+		E88447A94F6DAE28A2ADFD226F1C0ED3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C48FEB40C7B161464483A126707FE7E /* Pods-VoiceAnalyzer-umbrella.h in Headers */,
+				B75C473839665703FBDD627D1A6DC38B /* common.h in Headers */,
+				C31C6F1909CF63179D835FEA59D744E2 /* config.h in Headers */,
+				51B93B2A7F2A5C49A57D2642D2A87E53 /* fastest_coeffs.h in Headers */,
+				BB6327A7DC5EEAD591B6E037A35A8F39 /* float_cast.h in Headers */,
+				8AFA6DE7979A897650E87501B7ACA4AC /* high_qual_coeffs.h in Headers */,
+				7AF436231A9F0D30E0D0EBA88CFE7D99 /* libsamplerate-umbrella.h in Headers */,
+				2A323C005B3BB6DACFBF941945EFD6D3 /* mid_qual_coeffs.h in Headers */,
+				089C02C904062322F719CDFA4F74C591 /* samplerate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,17 +227,17 @@
 /* Begin PBXNativeTarget section */
 		34ED5486FF721D258AC605437E39AA44 /* Pods-VoiceAnalyzer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1FC1E0AE60F9EC77643C27FD49D6E27 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */;
+			buildConfigurationList = 876C13F62458AA35CD377BEC3056EDD8 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */;
 			buildPhases = (
-				F66B88575D4BE65FE01F69E3904B2DC2 /* Headers */,
-				F1585BFB96BAED24FBBFC1718DD11109 /* Sources */,
-				2BC40E0DE4554B8248AAFE4DE8BB8285 /* Frameworks */,
-				D1D63E5A1D114785020C420EB435EABB /* Resources */,
+				2E15F13B3D93A6C6FEBE05304192E723 /* Headers */,
+				AF0D1A68E3CB988ED287FAE120B0E520 /* Sources */,
+				15C08D9F5216CD59CECB51B15E0DAC1B /* Frameworks */,
+				49E2C19DD81CE6F6C30827BD74DBCE69 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FDE3DFE29B4CE12A91C2DA37E5883A4D /* PBXTargetDependency */,
+				C435484D07A9E2F69104B9F6551AF682 /* PBXTargetDependency */,
 			);
 			name = "Pods-VoiceAnalyzer";
 			productName = "Pods-VoiceAnalyzer";
@@ -244,12 +246,12 @@
 		};
 		75302EEA721A2F13B9FC601E246AC2E5 /* libsamplerate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D84E8A0E72CFA4C09E70A2B3175A910C /* Build configuration list for PBXNativeTarget "libsamplerate" */;
+			buildConfigurationList = 59F85EB2C2531CE63A04AE61FA3558E7 /* Build configuration list for PBXNativeTarget "libsamplerate" */;
 			buildPhases = (
-				6B66DBD3A413816EC35A59E4E39522FC /* Headers */,
-				C6C2BF59224302EE0A322140B9FC825A /* Sources */,
-				9BFEEA83713C65AA4EA12E6AC5658431 /* Frameworks */,
-				5C4813CA0E97894097B69C60457AF1C2 /* Resources */,
+				E88447A94F6DAE28A2ADFD226F1C0ED3 /* Headers */,
+				788F0B6E26997B65EB53763966476D97 /* Sources */,
+				FF6BEF64D092FA09A9346764CF8DE642 /* Frameworks */,
+				2B3F812CE0BC6EF9F1BB785719E1707C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -270,7 +272,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 11.4";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -289,14 +291,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5C4813CA0E97894097B69C60457AF1C2 /* Resources */ = {
+		2B3F812CE0BC6EF9F1BB785719E1707C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1D63E5A1D114785020C420EB435EABB /* Resources */ = {
+		49E2C19DD81CE6F6C30827BD74DBCE69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,74 +308,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C6C2BF59224302EE0A322140B9FC825A /* Sources */ = {
+		788F0B6E26997B65EB53763966476D97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43A31F06F71548D79C3514D7B2812A8D /* libsamplerate-dummy.m in Sources */,
-				6A81C657F6735FF25E88D977485136DF /* samplerate.c in Sources */,
-				278A67C6844836063CA89981446833FA /* src_linear.c in Sources */,
-				5A0150FE1988DC2D160D7A08DD24893D /* src_sinc.c in Sources */,
-				F58C28BF1BDE24FF75A363FF97832509 /* src_zoh.c in Sources */,
+				648C61D7B383CA1611D415696EC522A1 /* libsamplerate-dummy.m in Sources */,
+				6F0C53CAE3D10BBA267C706A12E42AE0 /* samplerate.c in Sources */,
+				179FCD0BE0AE2C73523FD896F5BC7878 /* src_linear.c in Sources */,
+				270CB759BBE87392695DDF9D8E519307 /* src_sinc.c in Sources */,
+				4660EA088D8DD1E2B7B81CBAE8F61B40 /* src_zoh.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1585BFB96BAED24FBBFC1718DD11109 /* Sources */ = {
+		AF0D1A68E3CB988ED287FAE120B0E520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6503189A1AE9BA9F86AA3B7691085AE /* Pods-VoiceAnalyzer-dummy.m in Sources */,
+				5F2F7F67EC79959A367695849659BFF9 /* Pods-VoiceAnalyzer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FDE3DFE29B4CE12A91C2DA37E5883A4D /* PBXTargetDependency */ = {
+		C435484D07A9E2F69104B9F6551AF682 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libsamplerate;
 			target = 75302EEA721A2F13B9FC601E246AC2E5 /* libsamplerate */;
-			targetProxy = 801FA8CE0AE24339EEDE4D336820376B /* PBXContainerItemProxy */;
+			targetProxy = 819331C82D0B032E18342F4AE674AEC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		024016B81B17C2B5CBE2A5BD1388F3CE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libsamplerate/libsamplerate-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libsamplerate/libsamplerate-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/libsamplerate/libsamplerate.modulemap";
-				PRODUCT_MODULE_NAME = libsamplerate;
-				PRODUCT_NAME = libsamplerate;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		07A08843B82E9DFDF80BF69F75369C46 /* App Store Release */ = {
+		05ABE4FC93DB84CEDE1345AE4DB6A025 /* Testable Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 623EC44FB3846AF34F1D3695BD1858A2 /* libsamplerate.release.xcconfig */;
 			buildSettings = {
@@ -407,10 +374,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "App Store Release";
+			name = "Testable Release";
 		};
-		45EBD0E9A121A732F15C7A4F44287675 /* Release */ = {
+		07CEF7FFD83942194EE24B1958368E0C /* App Store Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 406246555EB090F8CE83F611AC09945C /* Pods-VoiceAnalyzer.app store release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -444,7 +412,44 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = "App Store Release";
+		};
+		2F6C11F34AD27F479F49C1FD9DFBDE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CDDEBE1E34C60F18F55ED20FAFAA01 /* Pods-VoiceAnalyzer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4B84729F4AF1EBE9061D92F82C24EDF5 /* App Store Release */ = {
 			isa = XCBuildConfiguration;
@@ -570,6 +575,178 @@
 			};
 			name = Release;
 		};
+		5DCA7402534E7D93A0057704A71C19A3 /* Testable Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6447C99A727D5020951F71582A1AABD6 /* Pods-VoiceAnalyzer.testable release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Testable Release";
+		};
+		8164778B3423F02C7CE35734625531DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 688655F2923C1635DF478A18D3163FB0 /* libsamplerate.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libsamplerate/libsamplerate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libsamplerate/libsamplerate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libsamplerate/libsamplerate.modulemap";
+				PRODUCT_MODULE_NAME = libsamplerate;
+				PRODUCT_NAME = libsamplerate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87674727114C750933830D2B3BEB57A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F9C0AF0E79305143216C61BB03F9D93 /* Testable Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_TESTABLE_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = "Testable Release";
+		};
 		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -636,84 +813,9 @@
 			};
 			name = Debug;
 		};
-		B299E1DB4228F1DEF34EDA3FDE35C755 /* App Store Release */ = {
+		D43AED088155F47AC970577E4F24B293 /* App Store Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73BBD31A1D83BC2511BEC386050968AA /* Pods-VoiceAnalyzer.app store release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "App Store Release";
-		};
-		B584B76995AAE1A0E43E7415E08FA93F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92921F0BCC4D7788EDD64DE394134D6A /* Pods-VoiceAnalyzer.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VoiceAnalyzer/Pods-VoiceAnalyzer.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F03A32130B6D3AC496DFB3F184D07D47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 688655F2923C1635DF478A18D3163FB0 /* libsamplerate.debug.xcconfig */;
+			baseConfigurationReference = 623EC44FB3846AF34F1D3695BD1858A2 /* libsamplerate.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -741,10 +843,46 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = "App Store Release";
+		};
+		E8F8ECF6CF1041E2FE33A68C527439D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libsamplerate/libsamplerate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libsamplerate/libsamplerate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libsamplerate/libsamplerate.modulemap";
+				PRODUCT_MODULE_NAME = libsamplerate;
+				PRODUCT_NAME = libsamplerate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -755,26 +893,29 @@
 				4B84729F4AF1EBE9061D92F82C24EDF5 /* App Store Release */,
 				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
 				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+				8F9C0AF0E79305143216C61BB03F9D93 /* Testable Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1FC1E0AE60F9EC77643C27FD49D6E27 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */ = {
+		59F85EB2C2531CE63A04AE61FA3558E7 /* Build configuration list for PBXNativeTarget "libsamplerate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B299E1DB4228F1DEF34EDA3FDE35C755 /* App Store Release */,
-				B584B76995AAE1A0E43E7415E08FA93F /* Debug */,
-				45EBD0E9A121A732F15C7A4F44287675 /* Release */,
+				D43AED088155F47AC970577E4F24B293 /* App Store Release */,
+				8164778B3423F02C7CE35734625531DE /* Debug */,
+				E8F8ECF6CF1041E2FE33A68C527439D5 /* Release */,
+				05ABE4FC93DB84CEDE1345AE4DB6A025 /* Testable Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D84E8A0E72CFA4C09E70A2B3175A910C /* Build configuration list for PBXNativeTarget "libsamplerate" */ = {
+		876C13F62458AA35CD377BEC3056EDD8 /* Build configuration list for PBXNativeTarget "Pods-VoiceAnalyzer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07A08843B82E9DFDF80BF69F75369C46 /* App Store Release */,
-				F03A32130B6D3AC496DFB3F184D07D47 /* Debug */,
-				024016B81B17C2B5CBE2A5BD1388F3CE /* Release */,
+				07CEF7FFD83942194EE24B1958368E0C /* App Store Release */,
+				2F6C11F34AD27F479F49C1FD9DFBDE02 /* Debug */,
+				87674727114C750933830D2B3BEB57A5 /* Release */,
+				5DCA7402534E7D93A0057704A71C19A3 /* Testable Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
